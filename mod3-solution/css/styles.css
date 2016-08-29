@@ -1,0 +1,97 @@
+
+/*HEADER*/
+
+.navbar-header a {
+	text-decoration: none;
+}
+
+#header-nav {
+	background-color: #CCCCE9;
+	border-radius: 0;
+	border: 0;
+}
+
+/*#main-content {
+	height: 1000px;
+	background-color: green;
+}*/
+
+#nav-list {
+	text-align: center;
+	background-color: #B3DFF0;
+	font-size: 1.5em;
+}
+
+#nav-list a {
+	color: #2057A3;		
+}
+
+#chicken-item {
+	padding-top: 20px;
+	padding-bottom: 0;	
+}
+
+#beef-item {
+	padding: 0;
+}
+
+#sushi-item {
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+#collapsable-nav hr {
+	width: 95%;
+	background-color: #161515;
+}
+
+.navbar-header .icon-bar {
+	border: 2px solid #0B419B;	
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	border: 1px solid #0B419B;
+	margin-top: -55px;
+	margin-right: 40px;
+	
+}
+
+/*END HEADER*/
+
+/*MAIN CONTENT*/
+#menu-title {
+	margin-bottom: 20px;
+}
+
+#menu-detail {
+	background-color: red;
+}
+
+#menu-detail p {
+	padding: 15px;
+	color: white;
+}
+
+#menu-detail h3 {
+	color: white;
+}
+
+.container {
+	padding: 0;
+}
+
+
+
+/*END MAIN CONTENT*/
+
+
+/*MEDIA QUERY */
+
+@media (max-width: 767px) {
+	.navbar-header h1 {
+		margin-left: 25px;
+	}
+}
+
+/*END MEDIA QUERY*/
